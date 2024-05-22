@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println();
         System.out.println("Задача-3");
-        for (int i = 0; i < 17; i = i + 2) {
+        for (int i = 0; i <= 17; i = i + 2) {//Выведите в консоль все четные числа от 0 до 17. в условии нет включительно либо опечатка
             System.out.println(i);
         }
         System.out.println();
@@ -43,8 +43,8 @@ public class Main {
         System.out.println();
         System.out.println("Задача-8");
         int salary = 29000;
-        int total = 0;
-        for (int i = 0; i <= 12; i++) {
+        int total = 1;
+        for (int i = 1; i <= 12; i++) {
             total = total + salary;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
@@ -52,10 +52,10 @@ public class Main {
         System.out.println();
         System.out.println("Задача-9");
         int salaryI = 29000;
-        int totalI = 0;
-        for (int i = 0; i <= 12; i++) {
+        int totalI = 1;
+        for (int i = 1; i <= 12; i++) {//не пойму что нужно переставить так как код работает и выдает с %
             total = total + total / 100;
-            total = total + salary;
+            total = salaryI + total;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
         System.out.println();
