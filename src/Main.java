@@ -43,7 +43,7 @@ public class Main {
         System.out.println();
         System.out.println("Задача-8");
         int salary = 29000;
-        int total = 1;
+        int total = 0;
         for (int i = 1; i <= 12; i++) {
             total = total + salary;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
@@ -52,19 +52,19 @@ public class Main {
         System.out.println();
         System.out.println("Задача-9");
         int salaryI = 29000;
-        int totalI = 1;
+        int totalI = 0;
         for (int i = 1; i <= 12; i++) {//не пойму что нужно переставить так как код работает и выдает с %
+            total = total + salaryI ;
             total = total + total / 100;
-            total = salaryI + total;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
         System.out.println();
         System.out.println("Задача-10");
-        int namber = 2;
+        int number = 2;
 
         for (int j = 1; j <= 10; j++) {
 
-            System.out.println(namber + "*" + j + "=" + namber * j);
+            System.out.println(number + "*" + j + "=" + number * j);
         }
 
     }
